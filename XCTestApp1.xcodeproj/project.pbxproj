@@ -16,6 +16,7 @@
 		8468664A2A29143200A4C35F /* XCTestApp1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846866492A29143200A4C35F /* XCTestApp1Tests.swift */; };
 		846866542A29143200A4C35F /* XCTestApp1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846866532A29143200A4C35F /* XCTestApp1UITests.swift */; };
 		846866562A29143200A4C35F /* XCTestApp1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846866552A29143200A4C35F /* XCTestApp1UITestsLaunchTests.swift */; };
+		8468666F2A291EFB00A4C35F /* DataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468666E2A291EFB00A4C35F /* DataInteractor.swift */; };
 		BC2AD9BB674F2F122AFD8DBA /* Pods_XCTestApp1_XCTestApp1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B376057CAA5A71C7C49BAD1 /* Pods_XCTestApp1_XCTestApp1UITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		8468664F2A29143200A4C35F /* XCTestApp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTestApp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846866532A29143200A4C35F /* XCTestApp1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestApp1UITests.swift; sourceTree = "<group>"; };
 		846866552A29143200A4C35F /* XCTestApp1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestApp1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8468666E2A291EFB00A4C35F /* DataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInteractor.swift; sourceTree = "<group>"; };
 		BFC4DD8D7C80587CC537129E /* Pods_XCTestApp1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCTestApp1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4660633A6F48B6D34CF94D /* Pods_XCTestApp1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCTestApp1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -134,6 +136,7 @@
 		846866372A29143100A4C35F /* XCTestApp1 */ = {
 			isa = PBXGroup;
 			children = (
+				8468666C2A291EDE00A4C35F /* Feature */,
 				846866382A29143100A4C35F /* XCTestApp1App.swift */,
 				8468663A2A29143100A4C35F /* ContentView.swift */,
 				8468663C2A29143200A4C35F /* Assets.xcassets */,
@@ -165,6 +168,22 @@
 				846866552A29143200A4C35F /* XCTestApp1UITestsLaunchTests.swift */,
 			);
 			path = XCTestApp1UITests;
+			sourceTree = "<group>";
+		};
+		8468666C2A291EDE00A4C35F /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				8468666D2A291EE500A4C35F /* Data */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		8468666D2A291EE500A4C35F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8468666E2A291EFB00A4C35F /* DataInteractor.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8468666F2A291EFB00A4C35F /* DataInteractor.swift in Sources */,
 				8468663B2A29143100A4C35F /* ContentView.swift in Sources */,
 				846866392A29143100A4C35F /* XCTestApp1App.swift in Sources */,
 			);
