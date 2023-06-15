@@ -9,4 +9,4 @@ bundle install
 # dependencies
 bundle exec pod install
 
-swiftlint --reporter sonarqube > swiftlint.json
+swiftlint src --reporter sonarqube > swiftlint.json
