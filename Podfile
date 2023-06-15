@@ -7,7 +7,8 @@ target 'XCTestApp1' do
 
   # Pods for XCTestApp1
   pod 'Alamofire', '~> 5.0'
-
+  pod 'SwiftLint'
+  
   target 'XCTestApp1Tests' do
     inherit! :search_paths
     # Pods for testing

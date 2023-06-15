@@ -15,7 +15,7 @@ protocol DataInteractorProtocol {
 class DataInteractor: DataInteractorProtocol {
     
     func fetch() {
-        let _ = AF.defaultEventMonitors
+        _ = AF.defaultEventMonitors
     }
     
 }

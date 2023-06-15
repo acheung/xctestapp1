@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 # code analysis
 brew install lizard-analyzer

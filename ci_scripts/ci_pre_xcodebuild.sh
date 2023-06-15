@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 # tools
 export GEM_HOME=$HOME/.gem
@@ -8,3 +8,5 @@ bundle install
 
 # dependencies
 bundle exec pod install
+
+./Pods/SwiftLint/swiftlint --reporter sonarqube > swiftlint.json
