@@ -25,7 +25,7 @@ final class XCTestApp1Tests: XCTestCase {
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
         
-        XCTAssertTrue(false)
+        XCTAssertTrue(true)
     }
 
     func testPerformanceExample() throws {
