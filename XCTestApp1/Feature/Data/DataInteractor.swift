@@ -14,7 +14,7 @@ protocol DataInteractorProtocol {
 
 class DataInteractor: DataInteractorProtocol {
 
-    struct privateStruct {
+    struct PrivateStruct {
         let a: String
     }
 
