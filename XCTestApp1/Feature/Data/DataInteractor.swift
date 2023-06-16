@@ -13,9 +13,13 @@ protocol DataInteractorProtocol {
 }
 
 class DataInteractor: DataInteractorProtocol {
-    
+
+    struct privateStruct {
+        let a: String
+    }
+
     func fetch() {
         _ = AF.defaultEventMonitors
     }
-    
+
 }
