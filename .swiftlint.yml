@@ -1,8 +1,9 @@
 included:
-  - XCTestApp1
+  - CI_PATH/XCTestApp1
 excluded:
-  - XCTestApp1Tests
-  - XCTestApp1UITests
+  - CI_PATH/XCTestApp1Tests
+  - CI_PATH/XCTestApp1UITests
+  - CI_PATH/Pods
 analyzer_rules:
   - unused_declaration
   - unused_import
