@@ -22,4 +22,6 @@ gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)" ||
 bundle install
 
 # dependencies
-bundle exec pod install
+cp ./.netrc ~/.netrc
+bundle exec pod repo-art update cocoapods-local
+bundle exec pod install --repo-update
