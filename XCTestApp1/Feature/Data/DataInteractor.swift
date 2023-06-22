@@ -15,7 +15,7 @@ protocol DataInteractorProtocol: AnyObject {
 class DataInteractor: DataInteractorProtocol {
 
     struct PrivateStruct {
-        let a: String
+        let aaa: String
     }
 
     func fetch() {
