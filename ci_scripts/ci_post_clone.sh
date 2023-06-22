@@ -7,7 +7,9 @@ export HOMEBREW_NO_INSTALL_CLEANUP=1
 brew install ruby
 
 brew install swiftlint
-swiftlint ./src lint --strict
+export SWIFT_LINT_CONFIG="./src/.swiftlint.yml"
+sed -i '' 's/CI_PATH/src/g' ${SWIFT_LINT_CONFIG}
+swiftlint ./src --strict
 
 brew install lizard-analyzer
 lizard './src' -l swift --xml > lizard-reports.xml

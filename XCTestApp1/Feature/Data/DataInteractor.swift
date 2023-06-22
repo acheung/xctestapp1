@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 
-protocol DataInteractorProtocol {
+protocol DataInteractorProtocol: AnyObject {
     func fetch()
 }
 
