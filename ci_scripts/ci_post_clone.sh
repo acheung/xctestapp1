@@ -23,5 +23,6 @@ bundle install
 
 # dependencies
 cp ./.netrc ~/.netrc
-bundle exec pod repo-art update cocoapods-local
+bundle exec pod repo-art add cocoapods-local "https://pelmorex.jfrog.io/artifactory/api/pods/cocoapods-local"
+# bundle exec pod repo-art update cocoapods-local
 bundle exec pod install --repo-update
