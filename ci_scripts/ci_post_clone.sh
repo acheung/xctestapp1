@@ -22,8 +22,8 @@ gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)" ||
 bundle install
 
 # dependencies
-cp ./.netrc ~/.netrc
-chmod 600 ~/.netrc
-bundle exec pod repo-art add cocoapods-local "https://pelmorex.jfrog.io/artifactory/api/pods/cocoapods-local"
+# cp ./.netrc ~/.netrc
+# chmod 600 ~/.netrc
+# bundle exec pod repo-art add cocoapods-local "https://pelmorex.jfrog.io/artifactory/api/pods/cocoapods-local"
 # bundle exec pod repo-art update cocoapods-local
 bundle exec pod install --repo-update
