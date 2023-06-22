@@ -7,7 +7,7 @@
 
 import Foundation
 import Alamofire
-import PelmorexTelemetrySchema
+//import PelmorexTelemetrySchema
 
 protocol DataInteractorProtocol: AnyObject {
     func fetch()
@@ -21,7 +21,7 @@ class DataInteractor: DataInteractorProtocol {
 
     func fetch() {
         _ = AF.defaultEventMonitors
-        _ = PelmorexTelemetrySchema.Category.userData
+//        _ = PelmorexTelemetrySchema.Category.userData
     }
 
 }

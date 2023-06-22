@@ -1,25 +1,20 @@
 PODS:
   - Alamofire (5.7.1)
-  - PelmorexTelemetrySchema (1.0.1020)
   - SwiftLint (0.52.3)
 
 DEPENDENCIES:
   - Alamofire (~> 5.0)
-  - PelmorexTelemetrySchema (~> 1.0)
   - SwiftLint
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - SwiftLint
-  https://pelmorex.jfrog.io/artifactory/api/pods/cocoapods-local:
-    - PelmorexTelemetrySchema
 
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
-  PelmorexTelemetrySchema: 51fed21c31d315edc9a0110740e658931ae70a81
   SwiftLint: 76ec9c62ad369cff2937474cb34c9af3fa270b7b
 
-PODFILE CHECKSUM: 555f53428992f721b3dc3c4f3dbb9171edba708d
+PODFILE CHECKSUM: 1d87bc08b88b5cffa44e322c143a063f32c2a4c5
 
 COCOAPODS: 1.12.1
