@@ -379,7 +379,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/zsh;
-			shellScript = "SWIFT_LINT=\"${PODS_ROOT}/SwiftLint/swiftlint\"\nSWIFT_LINT_CONFIG=\"${PODS_ROOT}/../.swiftlint.yml\"\nsed -i '' 's/CI_PATH/./g' ${SWIFT_LINT_CONFIG}\n${SWIFT_LINT} --config ${SWIFT_LINT_CONFIG}\ngit restore ${SWIFT_LINT_CONFIG}\n";
+			shellScript = "SWIFT_LINT=\"${PODS_ROOT}/SwiftLint/swiftlint\"\nSWIFT_LINT_CONFIG=\"${PODS_ROOT}/../.swiftlint.yml\"\nsed -i '' 's/CI_PATH/./g' ${SWIFT_LINT_CONFIG}\n${SWIFT_LINT} --config ${SWIFT_LINT_CONFIG} --strict\ngit restore ${SWIFT_LINT_CONFIG}\n";
 			showEnvVarsInLog = 0;
 		};
 		95F238210C808559EB82F5D3 /* [CP] Check Pods Manifest.lock */ = {
