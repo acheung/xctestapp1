@@ -5,6 +5,8 @@ set -o pipefail
 # tools
 export HOMEBREW_NO_INSTALL_CLEANUP=1
 brew install ruby
+export PATH=/usr/local/opt/ruby/bin:$PATH
+ruby -v
 
 brew install swiftlint
 export SWIFT_LINT_CONFIG="./src/.swiftlint.yml"
